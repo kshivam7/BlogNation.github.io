@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+:root{
+    --main-bg-color:rgb(85, 204, 168);
+    --font-1:'Nunito', sans-serif;
+    --font-2:'Baloo Bhai 2', cursive;
+}
+
+.font1{
+    font-family: var(--font-1);
+}
+
+.font2{
+    font-family: var(--font-);
+}
+
+.max_width-1{
+    width: 80vw;
+}
+
+.max_width-2{
+    width:60vw;
+}
+.m_at{
+    margin:auto;
+}
+
+.f-size{
+    font-size:18px;
+}
+
+.fl_direct{
+    flex-direction: column;
+}
+
+
+.btn{
+    padding: 2px 10px;
+    font-size: 10px;
+    font-family: var(--font-2);
+    border: 2px solid;
+    border-color: var(--main-bg-color);
+    border-radius: 8px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color:white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+        width: 50%;
+        padding: 4px 30px;
+        font-family: var(--font-1);
+        border: 2px solid;
+        border-color: var(--main-bg-color);
+        font-size: 11px;
+        border-radius: 8px;
+}
+
+.form-box input, textarea{
+    border: 2px solid;
+    border-color: var(--main-bg-color);
+    border-radius: 5px;
+    width: 32vw;
+    font-size:14px;
+    font-family: var(--font-2);
+    margin: 2px 0px;
+    padding-left: 5px;
+}
+
+.m-pad{
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
